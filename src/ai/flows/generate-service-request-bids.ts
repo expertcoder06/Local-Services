@@ -65,7 +65,7 @@ const prompt = ai.definePrompt({
   Based on the following service request details, generate a list of bid suggestions that would attract quality service providers.  The bid suggestions should be strings with dollar amounts, and be tailored to the urgency and the budget.
 
   Service Description: {{{serviceDescription}}}
-  Budget: ${{{budget}}} USD
+  Budget: {{{budget}}} USD
   Urgency: {{{urgency}}}
   Location: {{{location}}}
   Customer Requirements: {{{customerRequirements}}}
